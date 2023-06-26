@@ -4,7 +4,7 @@
 
 ## Features
 * User registration and login with JWT authentication
-* storing user in H2 Database
+* Storing user in H2 Database
 * Password encryption using BCrypt
 * Role-based authorization with Spring Security
 
