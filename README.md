@@ -3,9 +3,18 @@
 
 ## APIs End Points:
 
-* /api/v1/auth/register
-* /api/v1/auth/authenticate
-* /api/v1/demo-controller
+### /api/v1/auth/register
+POST Api which is created to register usesr
+use below JSON body for testing
+{
+    "firstname": "parth",
+    "lastname" : "saxena",
+    "email" : "saxena100parth@gmail.com",
+    "password" : "1234"
+}
+  
+### /api/v1/auth/authenticate
+### /api/v1/demo-controller
 
 
 ## Features
