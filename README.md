@@ -24,6 +24,7 @@ To get started with this project, you will need to have the following installed 
 
 
 To build and run the project, follow these steps:
+<br>
  Clone the repository -> Navigate to the project directory -> Add database -> Build the project -> Run the project
 
 -> The application will be available at http://localhost:8080.
