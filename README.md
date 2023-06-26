@@ -3,7 +3,7 @@
 
 ## APIs End Points:
 
-### /api/v1/auth/register
+* ### /api/v1/auth/register
 POST Api which is created to register usesr <br>
 use below JSON body for testing <br>
 this will return  JWT token
