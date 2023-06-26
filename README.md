@@ -1,6 +1,12 @@
 # Assignment-Solution
 ## Spring Boot Security with JWT Implementation using H2 database
 
+## APIs End Points:
+
+* /api/v1/auth/register
+* /api/v1/auth/authenticate
+* /api/v1/demo-controller
+
 
 ## Features
 * User registration and login with JWT authentication
