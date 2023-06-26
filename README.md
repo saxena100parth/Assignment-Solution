@@ -12,6 +12,7 @@
 ## Technologies
 * Spring Boot 3.0
 * Spring Security
+* H2 database
 * JSON Web Tokens (JWT)
 * BCrypt
 * Maven
