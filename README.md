@@ -25,7 +25,7 @@ use below JSON body for testing <br>
 }  <br>
 <br>
 
-### /api/v1/demo-controller
+* ### /api/v1/demo-controller
 
 GET Api, This is a secure end-point:- It can access only with the JWT token.<br>
 pass Bearer tocken with Api call which we received from the above APIs endpoint.<br>
