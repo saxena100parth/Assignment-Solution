@@ -1,8 +1,7 @@
 # Assignment-Solution
 ## Spring Boot Security with JWT Implementation using H2 database
-
+<br><br>
 ## APIs End Points:
-
 * ### /api/v1/auth/register
 POST Api which is use to register usesr. It will create user in the database <br>
 use below JSON body for testing <br>
@@ -14,9 +13,22 @@ this will return  JWT token
     "email" : "saxena100parth@gmail.com", <br>
     "password" : "1234"  <br>
 }  <br>
+<br>
   
-### /api/v1/auth/authenticate
+* ### /api/v1/auth/authenticate
+POST Api which is use to authenticate user if the user is already created in the database it reture JWT token as response. <br>
+use below JSON body for testing <br>
+<br>
+{<br>
+    "email" : "saxena100parth@gmail.com", <br>
+    "password" : "1234"  <br>
+}  <br>
+<br>
+
 ### /api/v1/demo-controller
+
+GET Api, This is a secure end-point:- It can access only with the JWT token.<br>
+pass Bearer tocken with Api call which we received from the above APIs endpoint.<br>
 
 
 ## Features
