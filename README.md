@@ -4,8 +4,9 @@
 ## APIs End Points:
 
 ### /api/v1/auth/register
-POST Api which is created to register usesr
-use below JSON body for testing
+POST Api which is created to register usesr <br>
+use below JSON body for testing <br>
+this will return  JWT token
 <br>
 {<br>
     "firstname": "parth", <br>
