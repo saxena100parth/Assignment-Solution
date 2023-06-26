@@ -6,12 +6,13 @@
 ### /api/v1/auth/register
 POST Api which is created to register usesr
 use below JSON body for testing
-{
-    "firstname": "parth",
-    "lastname" : "saxena",
-    "email" : "saxena100parth@gmail.com",
-    "password" : "1234"
-}
+<br>
+{<br>
+    "firstname": "parth", <br>
+    "lastname" : "saxena", <br>
+    "email" : "saxena100parth@gmail.com", <br>
+    "password" : "1234"  <br>
+}  <br>
   
 ### /api/v1/auth/authenticate
 ### /api/v1/demo-controller
