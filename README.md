@@ -1,7 +1,9 @@
 # Assignment-Solution
 ## Spring Boot Security with JWT Implementation using H2 database
 <br>
+
 ## APIs End Points:
+
 ### * /api/v1/auth/register
 POST Api which is use to register usesr. It will create user in the database <br>
 use below JSON body for testing <br>
