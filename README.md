@@ -22,12 +22,15 @@ use below JSON body for testing <br>
 (POST API) It will return JWT token if the user is created in the database using signup API <br>
 use below JSON body for testing <br>
 <br>
+
 ```json
 {
-"email" : "example@gmail.com",
-"password" : "1234"
+  "email" : "example@gmail.com",
+  "password" : "1234"
 }
-``` 
+
+```
+
 <br>
 ### * /api/protected-resources
 
@@ -75,13 +78,6 @@ mvn spring-boot:run
 * The application will start running on http://localhost:8080.
 
 
-```json
-{
-  "email" : "example@gmail.com",
-  "password" : "1234"
-}
-
-```
 
 
 
