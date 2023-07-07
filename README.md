@@ -71,5 +71,14 @@ mvn spring-boot:run
 * The application will start running on http://localhost:8080.
 
 
+```json
+{
+  "email" : "example@gmail.com",
+  "password" : "1234"
+}
+
+```
+
+
 
 
