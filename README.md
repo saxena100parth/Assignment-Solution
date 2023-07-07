@@ -65,7 +65,7 @@ To get started with this project, you will need to have the following installed 
 ```bash
 
 # Clone the repository
-git clone https://github.com/your-username/your-repository.git
+git clone https://github.com/saxena100parth/Assignment-Solution.git
 
 # Navigate to the project directory
 cd login-signup-backend
@@ -81,7 +81,6 @@ mvn spring-boot:run
 
 * The application will start running on http://localhost:8080.
 
-Here are the Git commands:
 
 
 
