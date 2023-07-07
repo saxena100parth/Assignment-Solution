@@ -27,7 +27,7 @@ use below JSON body for testing <br>
 "email" : "example@gmail.com",
 "password" : "1234"
 }
-```
+``` 
 <br>
 ### * /api/protected-resources
 
