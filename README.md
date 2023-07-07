@@ -5,7 +5,7 @@
 
 ## APIs End Points:
 
-### * [/api/auth/signup](http://localhost:8080/api/auth/signup)
+### * http://localhost:8080/api/auth/signup
 (POST API) It will create new user in the database <br>
 use below JSON body for testing <br>
 <br>
@@ -18,7 +18,7 @@ use below JSON body for testing <br>
 }
 ``` 
 <br>
-### * /api/auth/login
+### * http://localhost:8080/api/auth/login
 (POST API) It will return JWT token if the user is created in the database using signup API <br>
 use below JSON body for testing <br>
 <br>
