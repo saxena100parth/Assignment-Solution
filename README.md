@@ -5,7 +5,7 @@
 
 ## APIs End Points:
 
-### * /api/auth/signup
+### * [/api/auth/signup](http://localhost:8080/api/auth/signup)
 (POST API) It will create new user in the database <br>
 use below JSON body for testing <br>
 <br>
