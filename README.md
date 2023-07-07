@@ -18,6 +18,7 @@ use below JSON body for testing <br>
 }
 ``` 
 <br>
+
 ### * http://localhost:8080/api/auth/login
 (POST API) It will return JWT token if the user is created in the database using signup API <br>
 use below JSON body for testing <br>
