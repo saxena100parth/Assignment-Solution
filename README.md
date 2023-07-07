@@ -60,21 +60,23 @@ To get started with this project, you will need to have the following installed 
 * JDK 17+
 * Maven 3+
 
-* Clone the repository:
 
-git clone https://github.com/your-username/login-signup-backend.git
 
-* Navigate to the project directory:
+\```bash
+# Clone the repository
+git clone https://github.com/your-username/your-repository.git
 
+# Navigate to the project directory
 cd login-signup-backend
 
-* Build the project using Maven:
-
+#  Build the project using Maven
 mvn clean install
 
-* Run the application:
-
+# Run the application:
 mvn spring-boot:run
+
+\```
+
 
 * The application will start running on http://localhost:8080.
 
