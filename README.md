@@ -33,8 +33,8 @@ use below JSON body for testing <br>
 ```
 
 <br>
-### * /api/protected-resources
 
+### * http://localhost:8080/api/protected-resources
 (GET API) This is a secure end-point:- It can access only with the JWT token.<br>
 pass Bearer tocken with Api call which we received from the above APIs endpoint.<br>
 
