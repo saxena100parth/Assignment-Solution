@@ -9,21 +9,25 @@
 (POST API) It will create new user in the database <br>
 use below JSON body for testing <br>
 <br>
+```json
 {
 "firstname": "user",
 "lastname" : "one",
 "email" : "example@gmail.com",
 "password" : "1234"
-} <br>
+}
+``` 
 <br>
 ### * /api/auth/login
 (POST API) It will return JWT token if the user is created in the database using signup API <br>
 use below JSON body for testing <br>
 <br>
+```json
 {
 "email" : "example@gmail.com",
 "password" : "1234"
 }
+```
 <br>
 ### * /api/protected-resources
 
