@@ -33,6 +33,8 @@ use below JSON body for testing <br>
 ```
 
 <br>
+I have created one extra end-point which work as a protected resources end-point. (It is just for demo)
+<br>
 
 ### * http://localhost:8080/api/protected-resources
 (GET API) This is a secure end-point:- It can access only with the JWT token.<br>
@@ -66,15 +68,6 @@ To get started with this project, you will need to have the following installed 
 
 # Clone the repository
 git clone https://github.com/saxena100parth/Assignment-Solution.git
-
-# Navigate to the project directory
-cd login-signup-backend
-
-#  Build the project using Maven
-mvn clean install
-
-# Run the application:
-mvn spring-boot:run
 
 ```
 
