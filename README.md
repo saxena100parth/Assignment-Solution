@@ -62,7 +62,8 @@ To get started with this project, you will need to have the following installed 
 
 
 
-\```bash
+```bash
+
 # Clone the repository
 git clone https://github.com/your-username/your-repository.git
 
@@ -75,10 +76,12 @@ mvn clean install
 # Run the application:
 mvn spring-boot:run
 
-\```
+```
 
 
 * The application will start running on http://localhost:8080.
+
+Here are the Git commands:
 
 
 
