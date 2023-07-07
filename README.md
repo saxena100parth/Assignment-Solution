@@ -1,33 +1,33 @@
 # Assignment-Solution
 ## Spring Boot Security with JWT Implementation using H2 database
+
 <br>
 
 ## APIs End Points:
 
-### * /api/v1/auth/register
-POST Api which is use to register usesr. It will create user in the database <br>
-use below JSON body for testing <br>
-this will return  JWT token
-<br>
-{<br>
-    "firstname": "parth", <br>
-    "lastname" : "saxena", <br>
-    "email" : "saxena100parth@gmail.com", <br>
-    "password" : "1234"  <br>
-}  <br>
-<br>
-### * /api/v1/auth/authenticate
-POST Api which is use to authenticate user if the user is already created in the database it reture JWT token as response. <br>
+### * /api/auth/signup
+(POST API) It will create new user in the database <br>
 use below JSON body for testing <br>
 <br>
-{<br>
-    "email" : "saxena100parth@gmail.com", <br>
-    "password" : "1234"  <br>
-}  <br>
+{
+"firstname": "user",
+"lastname" : "one",
+"email" : "example@gmail.com",
+"password" : "1234"
+} <br>
 <br>
-### * /api/v1/demo-controller
+### * /api/auth/login
+(POST API) It will return JWT token if the user is created in the database using signup API <br>
+use below JSON body for testing <br>
+<br>
+{
+"email" : "example@gmail.com",
+"password" : "1234"
+}
+<br>
+### * /api/protected-resources
 
-GET Api, This is a secure end-point:- It can access only with the JWT token.<br>
+(GET API) This is a secure end-point:- It can access only with the JWT token.<br>
 pass Bearer tocken with Api call which we received from the above APIs endpoint.<br>
 
 
@@ -46,16 +46,30 @@ pass Bearer tocken with Api call which we received from the above APIs endpoint.
 * BCrypt
 * Maven
  
-## Getting Started
+## Installation and Setup
 To get started with this project, you will need to have the following installed on your local machine:
 
 * JDK 17+
 * Maven 3+
 
+* Clone the repository:
 
-To build and run the project, follow these steps:
-<br>
- Clone the repository -> Navigate to the project directory -> Add database -> Build the project -> Run the project
+git clone https://github.com/your-username/login-signup-backend.git
 
--> The application will be available at http://localhost:8080.
+* Navigate to the project directory:
+
+cd login-signup-backend
+
+* Build the project using Maven:
+
+mvn clean install
+
+* Run the application:
+
+mvn spring-boot:run
+
+* The application will start running on http://localhost:8080.
+
+
+
 

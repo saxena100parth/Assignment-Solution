@@ -1,4 +1,4 @@
-package com.Assignment.GreenStitch.config;
+package com.Assignment.GreenStitch.service;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;

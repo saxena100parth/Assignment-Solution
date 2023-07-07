@@ -1,6 +1,6 @@
 package com.Assignment.GreenStitch.config;
 
-import com.Assignment.GreenStitch.user.UserRepository;
+import com.Assignment.GreenStitch.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

@@ -1,5 +1,6 @@
-package com.Assignment.GreenStitch.user;
+package com.Assignment.GreenStitch.model;
 
+import com.Assignment.GreenStitch.model.Role;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
